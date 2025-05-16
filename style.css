@@ -1,0 +1,222 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100vh;
+    width: 100%;
+}
+.main{
+    width: 100%;
+    height:100% ;
+    position: relative;
+    overflow: hidden;
+    background-color: green;
+}
+#background_image{
+    height: 100%;
+    width: 100%;
+    
+}
+#road {
+    position: absolute;
+    top: 0%;
+    left: 35%;
+    width: 40%; 
+    height: 100%; 
+    
+    background: url('images/road_car.png') repeat-y;
+
+    
+
+    background-size: cover;
+
+    
+}
+
+
+
+
+
+
+
+#main_car{
+    
+    position: absolute;
+    top: 58vh;
+    left: 53vw;
+    
+    height:160px ;
+    width: 80px;
+    border-radius: 50px;
+    
+}
+#main_car img{
+    width: 450px;
+    height: 220px;
+    position: absolute;
+    top:-18% ;
+    left: -178px;
+    
+    
+}
+#enemy_car{
+    display: flex;
+   
+}
+#enemycar_1{
+    position: absolute;
+    top: 4vh;
+    /* left: 25vw; */
+    left: 39vw;
+     /* animation: enemycar1 5s linear infinite; */
+    
+     height:150px ;
+     width: 82px;
+     border-radius: 50px;
+     
+} 
+#enemycar_1 img{
+    width: 220px;
+    height: 180px;
+    position: absolute;
+    top: -15px;
+    left: -70px;
+
+}
+#enemycar_2{
+    position: absolute;
+    top: 25%;
+    /* left: 36vw; */
+    left: 43vw;
+    /* animation: enemycar2 8s linear infinite; */
+    
+    height:105px ;
+    width: 95px;
+    border-radius: 30px;
+}
+#enemycar_2 img{
+    width: 140px;
+    height: 120px;
+    position: absolute;
+    top:-4px ;
+    left: -25px;
+
+}
+#enemycar_3{
+    position: absolute;
+    top: 0%;
+    left: 52vw;
+    /* animation: enemycar3 3s linear infinite; */
+    
+    height: 120px;
+    width:80px ;
+}
+#enemycar_3 img{
+    width: 220px;
+    height: 160px;
+    position: absolute;
+    top:-16px ;
+    left:-72px ;
+
+}
+#enemycar_4{
+    position: absolute;
+    top: 10%;
+    left: 64vw;
+    /* animation: enemycar4 4s linear infinite; */
+    
+    height: 140px;
+    width: 85px;
+    
+    border-radius: 50px;
+}
+#enemycar_4 img{
+    width: 200px;
+    height: 140px;
+    position: absolute;
+    top: 1%;
+    left: -58px;
+    
+
+
+}
+@keyframes enemycar1{
+    0%{
+        top: -90vh;
+    }
+    100%{
+        top: 100vh;
+
+    }
+}
+
+@keyframes enemycar2{
+    0%{
+        top: -90vh;
+    }
+    100%{
+        top: 100vh;
+
+    }
+}
+@keyframes enemycar3{
+    0%{
+        top: -90vh;
+    }
+    100%{
+        top: 100vh;
+
+    }
+}
+@keyframes enemycar4{
+    0%{
+        top: -90vh;
+    }
+    100%{
+        top: 100vh;
+
+    }
+}
+#start {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+z-index: 10; 
+}
+
+.start_button {
+padding: 20px 40px;
+font-size: 28px;
+background-color: #e35353; 
+color: white;
+border: none;
+cursor: pointer;
+border-radius: 15px;
+}
+#score{
+position: absolute;
+top: 0%;
+left: 16%;
+color: white;
+
+
+
+
+}
+p{
+font-size: 38px;
+}
+
+#speed{
+    position: relative;
+    /* top:-94% ; */
+    left: 16%;
+    top: 5%;
+    color: white;
+    
+    
+}

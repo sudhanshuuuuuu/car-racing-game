@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        
+        <!-- <img src="images/background.jpg" alt="" id="background_image"> -->
+         <div class="background_image"></div>
+        <div id="road">
+            
+            <div id="start">
+                <button class="start_button">Start</button>
+             </div>
+        </div>
+        <div id="main_car">
+            <img src="images/mcar1.png" alt="">
+        </div>
+        <div id="enemy_car">
+            <div id="enemycar_1"><img src="images/ecar2.webp" alt=""></div>
+            <div id="enemycar_2"><img src="images/ecar3.png" alt=""></div>
+            <div id="enemycar_3"><img src="images/ecar2.webp" alt=""></div>
+            <div id="enemycar_4"><img src="images/ecar1.webp" alt=""></div>
+        </div>
+        
+        <audio id="gameMusic" src="audio/gameM.mp3" loop></audio>
+        <audio id="gameOverSound" src="audio/crashS.mp3"></audio>
+        <audio id="speedUpSound" src="audio/speedM.mp3"></audio>
+
+        <div id="score"><p>Score: 0</p></div>
+        <div id="speed"><p>Speed: 2</p></div>
+
+          
+    </div>
+
+    <script src="src.js"></script>
+</body>
+</html>
